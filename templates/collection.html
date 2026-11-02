@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% from 'macros.html' import collection_card with context %}
+{% block content %}
+<header class="container page-header">
+  <p class="eyebrow">{{ page_meta.eyebrow }}</p>
+  {% if page_meta.title %}<h1 class="page-title">{{ page_meta.title }}</h1>{% endif %}
+  <p class="page-intro">{{ page_meta.intro }}</p>
+</header>
+<section class="container page-content collection-section" data-collection="{{ page }}" aria-label="{{ page_title }} listings">
+  {% if entries %}
+  <form class="filter-bar" role="search" data-filters hidden>
+    <div class="filter-field filter-search"><label for="search">Search {{ 'activities' if page == 'events' else 'listings' }}</label><input id="search" type="search" name="q" placeholder="Search by topic, keyword, or name…" autocomplete="off"></div>
+    <div class="filter-field"><label for="type">Type</label><select id="type" name="type"><option value="">All types</option>{% for type in types %}<option value="{{ type }}">{{ type }}</option>{% endfor %}</select></div>
+    {% if page == 'funding' %}<div class="filter-field"><label for="status">Status</label><select id="status" name="status"><option value="">All statuses</option>{% for status in statuses %}<option value="{{ status }}">{{ status }}</option>{% endfor %}</select></div>{% endif %}
+    <button class="filter-reset" type="reset">Reset filters</button>
+  </form>
+  <p class="filter-summary" data-result-count role="status" aria-live="polite">{{ entries | length }} {{ 'activities' if page == 'events' else 'listings' }}</p>
+  <div class="collection-grid">{% for item in entries %}{{ collection_card(item, page) }}{% endfor %}</div>
+  <div class="empty-state" data-no-results hidden><h2>No matching results</h2><p>Try a broader search or reset your filters.</p><button class="button button-secondary" type="button" data-clear-filters>Clear filters</button></div>
+  {% endif %}
+</section>
+{% endblock %}

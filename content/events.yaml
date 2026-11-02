@@ -1,0 +1,7 @@
+# Omit date until confirmed; the website displays TBA.
+- id: kick-off-meeting
+  title: AI Working Group Kick-off Meeting
+  type: Meeting
+  summary: Meet the group and discuss shared research interests and plans for upcoming activities.
+  time: To be announced
+  location: To be announced

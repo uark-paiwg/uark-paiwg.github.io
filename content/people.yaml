@@ -1,0 +1,31 @@
+# Leadership details are drawn from the working group's proposal.
+- id: jungtaek-kim
+  name: Jungtaek Kim
+  role: Principal Investigator · Assistant Professor
+  department: Electrical Engineering and Computer Science
+  email: jungtaek.kim@uark.edu
+  interests:
+    - Large language models
+    - Physical AI
+    - AI for scientific discovery
+  initials: JK
+- id: hasan-shahriar
+  name: Hasan Shahriar
+  role: Co-Principal Investigator · Assistant Professor
+  department: Electrical Engineering and Computer Science
+  email: shahriar@uark.edu
+  interests:
+    - Trustworthy AI
+    - Cyber-physical systems
+    - AI security
+  initials: HS
+- id: chase-rainwater
+  name: Chase Rainwater
+  role: Co-Principal Investigator · Professor & Department Head
+  department: Industrial Engineering
+  email: cer@uark.edu
+  interests:
+    - Optimization
+    - Logistics
+    - Physical systems
+  initials: CR
