@@ -103,10 +103,10 @@ class SiteBuildTests(unittest.TestCase):
         self.assertGreater(checked, 20, "Expected a complete site with internal links")
 
     def test_project_path_build_has_valid_links_and_assets(self):
-        build_site(self.content, self.output, base_path="/ai-working-group")
+        build_site(self.content, self.output, base_path="/physical-ai-working-group")
         self.assert_routes_exist()
         self.assertTrue((self.output / ".nojekyll").is_file())
-        self.assert_internal_links_resolve("/ai-working-group")
+        self.assert_internal_links_resolve("/physical-ai-working-group")
 
     def test_empty_collections_keep_all_pages_usable(self):
         for index, name in enumerate(COLLECTIONS):
@@ -127,9 +127,9 @@ class SiteBuildTests(unittest.TestCase):
                 "id": "minimal-" + name,
                 "name" if name == "people" else "title": label,
             }])
-        build_site(self.content, self.output, base_path="/ai-working-group")
+        build_site(self.content, self.output, base_path="/physical-ai-working-group")
         self.assert_routes_exist()
-        self.assert_internal_links_resolve("/ai-working-group")
+        self.assert_internal_links_resolve("/physical-ai-working-group")
         rendered = "\n".join(
             path.read_text(encoding="utf-8") for path in self.output.rglob("*.html")
         )

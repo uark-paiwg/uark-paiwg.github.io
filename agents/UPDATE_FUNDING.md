@@ -109,7 +109,7 @@ Use the Python environment described in `README.md` (activate the existing `.ven
 
 ```sh
 python -m unittest discover -s tests -v
-python scripts/build.py --base-path /ai-working-group --output .preview/funding-review
+python scripts/build.py --base-path /physical-ai-working-group --output .preview/funding-review
 git diff --check
 git diff -- content/funding.yaml
 git status --short

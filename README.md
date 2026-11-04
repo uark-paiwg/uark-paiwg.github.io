@@ -1,6 +1,6 @@
-# AI Working Group
+# Physical AI Working Group
 
-A YAML-driven website for the University of Arkansas College of Engineering AI Working Group. It introduces the group and its three founding PIs, with room for a growing schedule, compute and credit opportunities, and funding.
+A YAML-driven website for the University of Arkansas College of Engineering Physical AI Working Group. It introduces the group and its three founding PIs, with room for a growing schedule, compute and credit opportunities, and funding.
 
 The site is generated with Python, Jinja2, and PyYAML. The output is ordinary HTML, CSS, and JavaScript suitable for GitHub Pages. There is no database or backend service.
 
@@ -21,11 +21,11 @@ Open <http://localhost:8000>. After editing content or templates, run the build 
 To preview the repository path used by a GitHub Pages project site:
 
 ```sh
-python scripts/build.py --base-path /ai-working-group --output .preview/ai-working-group
+python scripts/build.py --base-path /physical-ai-working-group --output .preview/physical-ai-working-group
 python -m http.server 8000 --directory .preview
 ```
 
-Open <http://localhost:8000/ai-working-group/>. Replace `/ai-working-group` with the actual repository path when needed. A user, organization, or custom-domain site can use an empty base path.
+Open <http://localhost:8000/physical-ai-working-group/>. Replace `/physical-ai-working-group` with the actual repository path when needed. A user, organization, or custom-domain site can use an empty base path.
 
 ## Edit content
 
@@ -119,4 +119,4 @@ To enable the first publication:
 
 The workflow obtains the hosting base path from GitHub Pages. Generated files are uploaded as a deployment artifact; do not commit `dist/` or `.preview/`. To publish without sample content, add `--exclude-samples` to the workflow's build command.
 
-The generator creates a `.aiwg-build` marker in its output directory. Subsequent builds replace that generated directory; a nonempty directory without the marker is protected from replacement. Keep hand-maintained files outside build output directories.
+The generator creates a `.paiwg-build` marker in its output directory. Subsequent builds replace that generated directory; a nonempty directory without the marker is protected from replacement. Keep hand-maintained files outside build output directories.

@@ -1,6 +1,6 @@
 # Search for computing resources and credits
 
-Use this workflow to discover computing resources relevant to the University of Arkansas AI Working Group and, when requested, add verified opportunities to `content/compute.yaml`.
+Use this workflow to discover computing resources relevant to the University of Arkansas Physical AI Working Group and, when requested, add verified opportunities to `content/compute.yaml`.
 
 This is an instruction file for an AI agent with repository and web access. It does not execute or schedule itself. Resolve repository paths from the repository root.
 
