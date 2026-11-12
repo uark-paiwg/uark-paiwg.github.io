@@ -284,3 +284,69 @@
     - "Optional white paper: November 20, 2026 at 5 p.m. Eastern."
     - "Required full proposal: April 9, 2027 at 5 p.m. Eastern."
     - "Industry, federal laboratories, FFRDCs, and foreign collaborators cannot receive MURI funds directly or through subawards."
+
+# UArk's CISE degree programs: https://engineering.uark.edu/areas-of-study/areas-of-study.php
+- id: nsf-expeditions-computing
+  title: Expeditions in Computing — NSF 26-525
+  provider: NSF — Computer and Information Science and Engineering
+  type: Collaborative research grant
+  summary: Supports ambitious foundational computing research by large multidisciplinary teams. Potential fits include embodied intelligence, robotics, and theories of learning.
+  eligibility: U.S. accredited universities with undergraduate, master's, and doctoral CISE programs may lead or collaborate. No institutional submission limit; each person may join only one preliminary proposal and its invited full proposal per competition as PI, co-PI, or senior/key personnel.
+  amount: Up to $15,000,000 total over 7 years.
+  deadline: "2026-12-02"
+  status: Open
+  url: https://www.nsf.gov/funding/opportunities/expeditions-expeditions-computing/nsf26-525/solicitation
+  last_checked: "2026-11-12"
+  details:
+    - "Required preliminary proposal: December 2, 2026 at 5 p.m. submitting organization's local time, through Research.gov."
+    - "Full proposals are invitation-only, due July 27, 2027 at 5 p.m. submitting organization's local time."
+    - "National laboratories, for-profit organizations, and foreign organizations may participate only with independent support."
+
+# Next deadline calculated from the solicitation's first-Wednesday-in-November annual rule.
+- id: nsf-ai-datasets
+  title: Unlocking Dataset Value for AI-Enabled Scientific Discovery (AI Datasets) — NSF 26-512
+  provider: NSF — CISE and partner directorates
+  type: Research grant
+  summary: Supports preparation and curation of existing scientific datasets for AI-driven discovery. Potential fits include materials, energy, and biomedical datasets with broad scientific value.
+  eligibility: U.S. accredited institutions of higher education may apply. No additional PI restrictions or proposal-count limits. Multi-organization projects must use one lead with subawards.
+  amount: Impact awards up to $2,000,000 total or Flagship awards up to $5,000,000 total, each for up to 3 years; planning grants up to $200,000.
+  deadline: "2027-11-03"
+  status: Open
+  url: https://www.nsf.gov/funding/opportunities/ai-datasets-unlocking-dataset-value-ai-enabled-scientific-discovery/nsf26-512/solicitation
+  last_checked: "2026-11-12"
+  details:
+    - "Next full-proposal deadline: November 3, 2027 at 5 p.m. submitting organization's local time, following the annual first-Wednesday-in-November rule."
+    - "No required letter of intent or preliminary proposal; submit through Research.gov or Grants.gov."
+    - "Address dataset governance, security, integrity, and scientific community benefit. Flagship applicants are strongly encouraged to discuss scope with a program officer."
+
+# Arkansas eligibility: https://www.nsf.gov/funding/initiatives/epscor/epscor-criteria-eligibility
+- id: nsf-epscor-workshops
+  title: EPSCoR Workshop Opportunities (EPS-WO) — NSF 24-540
+  provider: NSF — EPSCoR
+  type: Workshop grant
+  summary: Supports workshops that develop collaborations across jurisdictions on regional or national research priorities. Potential fit is a multi-state physical AI research-planning workshop.
+  eligibility: Universities in EPSCoR-eligible jurisdictions, including Arkansas, may apply. No additional PI restrictions or institutional or individual proposal-count limits. Workshops must address multi-jurisdictional efforts; single-institution activities are outside scope.
+  amount: Up to $200,000 total for up to 1 year.
+  status: Rolling
+  url: https://www.nsf.gov/funding/opportunities/eps-wo-established-program-stimulate-competitive-research-workshop/503341/nsf24-540/solicitation
+  last_checked: "2026-11-12"
+  details:
+    - "Required concept outline may be emailed to EPSCoR anytime; a program officer's invitation is required before submitting a full proposal."
+    - "Begin concept development at least 12 months before the workshop when possible; this is a recommendation, not a deadline."
+    - "No funds may be budgeted for non-EPSCoR institutions; eligible travel for their speakers belongs in participant support costs. A public workshop report is required."
+
+# Current amendment: https://www.onr.navy.mil/assets/2026-09/N0001425SB001_Amendment-0008.pdf
+- id: dow-onr-long-range-baa
+  title: Long Range BAA for Navy and Marine Corps Science and Technology — N0001425SB001
+  provider: DoW — Office of Naval Research
+  type: Research funding
+  summary: Supports science and engineering research with naval relevance. Potential fits include physical AI and sensing when aligned with an ONR research program.
+  eligibility: Academic organizations, including U.S. universities, may apply. Research must fit naval needs and the relevant technical area; teams must meet applicable research-security requirements.
+  deadline: "2026-12-31"
+  status: Rolling
+  url: https://www.onr.navy.mil/work-with-us/funding-opportunities/fy25-long-range-broad-agency-announcement-baa-navy-and-marine
+  last_checked: "2026-11-12"
+  details:
+    - "Amendment 0008 extends continuous submissions through December 31, 2026, unless replaced earlier. The official listing specifies 11:59 p.m. Eastern Standard Time; the displayed deadline is the BAA expiration."
+    - "White papers are often desired; consult the relevant program officer about their use. Separate BAA calls may impose their own stages and dates."
+    - "Award amount and duration depend on the technical area and proposed approach. Instruments may include grants, cooperative agreements, contracts, or other transactions."
